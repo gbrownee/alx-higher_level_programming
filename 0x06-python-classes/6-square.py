@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Python coding shebang"""
+
+
 class Square:
     """Represents a square.
     Private instance attribute: size:
