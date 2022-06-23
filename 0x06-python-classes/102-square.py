@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Python coding shebang"""
+"""Python coding shebang."""
 
 
 class Square:
@@ -23,7 +23,7 @@ class Square:
 
     def __ne__(self, other):
         """Not equal."""
-        return not sefl.__eq__(other)
+        return not self.__eq__(other)
 
     def __lt__(self, other):
         """Less than."""
