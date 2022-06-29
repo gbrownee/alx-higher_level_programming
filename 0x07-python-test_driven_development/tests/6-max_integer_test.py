@@ -61,8 +61,8 @@ class TestMaxInteger(unittest.TestCase):
         result = max_integer(l)
         self.assertEqual(result, "hi")
 
-     def test_none(self):
-         """Test with a None as parameter: should raise a TypeError"""
+    def test_none(self):
+        """Test with a None as parameter: should raise a TypeError"""
         self.assertRaises(TypeError, max_integer, None)
 
     if __name__ == '__main__':
