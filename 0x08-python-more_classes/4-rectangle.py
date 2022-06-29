@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Module 4-rectangle"""
+"""Module 4-rectangle
+Defines a Rectangle class
+"""
 
 
 class Rectangle:
@@ -12,7 +14,8 @@ class Rectangle:
 
     def __str__(self):
         """Returns an informal and nicely printable string representation
-        of a rectangle instance, filled with '#'character."""
+        of a rectangle instance, filled with '#'character.
+        """
         if self.__heeight == 0 or self.__width == 0:
             return ''
         rec_str = ''
