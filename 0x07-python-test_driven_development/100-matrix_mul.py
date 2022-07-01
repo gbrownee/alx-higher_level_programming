@@ -33,7 +33,7 @@ def matrix_mul(m_a, m_b):
             if type(x) is not int and type(x) is not float:
                 raise TypeError("m_b should contain only integers or floats")
 
-    row_lem = []
+    row_len = []
     for row in m_a:
         row_len.append(len(row))
     if not all(elem == row_len[0] for elem in row_len):
