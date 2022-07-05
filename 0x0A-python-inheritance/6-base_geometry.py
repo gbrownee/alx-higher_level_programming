@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Module 6-base_geometry.
-Creates a BaseGeometry.
+    Module 6-base_geometry.
 """
 
 
