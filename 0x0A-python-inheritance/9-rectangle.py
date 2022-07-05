@@ -30,7 +30,9 @@ class Rectangle(BaseGeometry):
         self.height = height
 
     def __Str__(self):
-        """Returns a formatted string"""
+        """Returns a formatted string.
+        this is a magic string
+        """
 
         return str("[Rectangle] {}/{}".format(self.__width, sef.__height))
 

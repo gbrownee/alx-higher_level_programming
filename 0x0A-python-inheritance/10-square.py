@@ -27,6 +27,10 @@ class Square(Rectangle):
         self.__size = size
 
     def __str__(self):
+        """Returns a formatted string.
+        this string is private.
+        """
+
         return super().__str__()
 
     def area(self):

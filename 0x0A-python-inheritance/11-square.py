@@ -27,6 +27,10 @@ class Square(Rectangle):
         self.__size = size
 
     def __str__(self):
+        """Returns a foematted string.
+        Returns the given Rectangle description
+        """
+
         return str("[Square] {}/{}".format(self.__size, self.__size))
 
     def area(self):
