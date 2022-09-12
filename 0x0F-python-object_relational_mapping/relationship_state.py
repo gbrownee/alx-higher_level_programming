@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Definition of the State class with relationship to City"""
+"""
+Definition of the State class with relationship to City
+"""
 
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
@@ -8,7 +10,9 @@ from relationship_city import City, Base
 
 
 class State(Base):
-    """Class State"""
+    """
+    Class State
+    """
 
     __tablename__ = 'states'
     id = Column(Integer, autoincrement=True,
