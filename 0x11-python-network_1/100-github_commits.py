@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""Takes in Github repo nd owner name to list
-10 commits (from the most recent to oldest)"""
+"""
+Takes in Github repo and owner name to list
+10 commits
+"""
 
 
 if __name__ == "__main__":

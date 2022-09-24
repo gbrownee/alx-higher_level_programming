@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""Takes in a URL, sends a request to the URL and
-displays the body of the response"""
+"""
+Takes in a URL, sends a request to the URL and
+displays the body of the response
+"""
 
 if __name__ == "__main__":
     import urllib.request
